@@ -45,3 +45,12 @@ externo.
 En esta carpeta se encuentra el código que se ha utilizado para crear
 la función de puntuación utilizada en la competición, para poder
 ser utilizada durante el proceso de entrenamiento de la red.
+
+### `dataset`
+
+En esta carpeta se encuentra la información referente al conjunto de
+datos con los que se ha trabajado. Se ha evitado subir el conjunto
+de datos completo, dado que es muy pesado y no tiene mucho sentido
+tenerlo aquí almacenado. Para poder ejecutar el modelo, previamente
+hay que descargar el conjunto de datos y descomprimirlo dentro de una
+carpeta llamada `data` dentro de este directorio.
