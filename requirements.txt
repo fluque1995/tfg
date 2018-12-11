@@ -1,0 +1,14 @@
+absl-py==0.3.0
+biosppy==0.5.1
+h5py==2.8.0
+Keras==2.2.2
+Keras-Applications==1.0.4
+Keras-Preprocessing==1.0.2
+matplotlib==2.2.2
+numpy==1.14.5
+scikit-learn==0.19.2
+scipy==1.1.0
+sklearn==0.0
+tensorboard==1.10.0
+tensorflow-gpu==1.10.0
+wfdb==2.2.1

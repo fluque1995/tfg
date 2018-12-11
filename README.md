@@ -54,3 +54,22 @@ de datos completo, dado que es muy pesado y no tiene mucho sentido
 tenerlo aquí almacenado. Para poder ejecutar el modelo, previamente
 hay que descargar el conjunto de datos y descomprimirlo dentro de una
 carpeta llamada `data` dentro de este directorio.
+
+## Proceso de reproducción de resultados
+
+Si se quieren reproducir los resultados mostrados en el trabajo, el
+proceso a seguir es el siguiente:
+
+1. Descargar el conjunto de datos de Physionet:
+   (https://physionet.org/challenge/2017/training2017.zip)
+2. Descomprimir los archivos y colocarlos en la carpeta `data` dentro
+   de la carpeta `dataset`
+2. Instalar Python 3 junto con las dependencias especificadas en el
+   archivo `requirements.txt`
+3. Seleccionar en el archivo `test.py` el subconjunto de validación
+   que se quiere utilizar. Se han adjuntado los modelos entrenados
+   para los cinco subconjuntos de validación, para evitar que haya
+   que entrenarlos de nuevo a la hora de comprobar los resultados.
+4. En caso de querer reentrenar los modelos, se puede hacer ejecutando
+   el archivo `train.py`. En dicho archivo hay que seleccionar también
+   el subconjunto de validación que va a utilizarse.
