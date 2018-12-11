@@ -39,3 +39,9 @@ las predicciones hechas por un modelo, para poder utilizarlas en otros
 puntos en caso de que sea necesario. Actúa de la misma manera que el
 archivo `test.py`, pero guarda las predicciones hechas en un archivo
 externo.
+
+### `utils`
+
+En esta carpeta se encuentra el código que se ha utilizado para crear
+la función de puntuación utilizada en la competición, para poder
+ser utilizada durante el proceso de entrenamiento de la red.
